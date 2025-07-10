@@ -28,6 +28,13 @@ nav{
     background-image: url(../Assets/Hero-bg.png);
 }
 
+button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-out;
+}
+
 .banner-btn{
     margin-bottom: 200px;
     margin-top: 37px;
@@ -99,6 +106,13 @@ nav{
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-out;
 }
 
 .action-section img {
@@ -232,6 +246,13 @@ text-align: center;
     cursor: pointer;
 }
 
+button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-out;
+}
+
 .ready-to-focus img{
     border-radius: 48px;
     margin-top: 30px;
@@ -240,7 +261,8 @@ text-align: center;
 .contact-options{
     margin-left: 180px;
     margin-right: 180px;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -275,6 +297,13 @@ text-align: center;
     cursor: pointer;
 }
 
+button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-out;
+}
+
 textarea{
     border: 1px solid  #dadada;
     border-radius: 5px;
@@ -289,4 +318,47 @@ textarea{
 label{
     font-weight: bold;
     color: #3e3e3e;
+}
+
+footer{
+    background-color: #f0f8ff;
+}
+
+.the-footer-section{
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    padding: 100px;
+}
+
+.the-footer-section h1 {
+    color: #4E47FF;
+    font-weight:bolder;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.the-footer-section p{
+    color: #8987A1;
+    font-weight: 600;
+}
+
+ul {
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+ul li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #8987A1;
 }
